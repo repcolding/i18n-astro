@@ -1,0 +1,14 @@
+{
+  "name": "@verno.digital/i18n-astro",
+  "version": "1.0.0",
+  "keywords": [
+    "@verno.digital"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/repcolding/i18n-astro"
+  },
+  "license": "MIT",
+  "author": "telegramm: @repcolding; site: https://verno.digital",
+  "type": "module"
+}
