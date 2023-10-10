@@ -4,7 +4,7 @@ export interface UI {
     }
 }
 
-export const useI18n = (ui: UI, defaultLang: string) => {
+export const useI18n = (defaultLang: string, ui: UI) => {
     const getLangFromUrl = (url: URL) => {
         const [_, lang] = url.pathname.split('/')
 
