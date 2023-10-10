@@ -30,9 +30,9 @@ export const useI18n = (defaultLang: string, ui: UI) => {
 export const useLocale = (locale: Record<string, string>) => {
     const upgrade = { ...locale }
 
-    for (const key in locale) {
-        if (locale[key] === '.') {
-            locale[key] = key
+    for (const key in upgrade) {
+        if (upgrade[key] === '.') {
+            upgrade[key] = key
         }
     }
 
